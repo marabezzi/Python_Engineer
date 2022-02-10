@@ -22,4 +22,4 @@ ax.set_ylim([0, 10])
 
 plt.grid()
 plt.draw()
-plt.show(
+plt.show()

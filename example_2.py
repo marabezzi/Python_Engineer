@@ -5,8 +5,8 @@ import numpy as np
 a = [-2, 4, 3]
 b = [1, 4, 0]
 
-soa = np.array([[0, 0, 0, a[0], a[1], a[2]], [0, 0, 0, b[0], b[1], b[2]],
-                [0, 0, 0, 2, 1, 0], [0, 0, 0, 0.5, 0.7, 0]])
+soa = np.array([[0, 0, 0, a[0], a[1], a[2]],
+                [0, 0, 0, b[0], b[1], b[2]]])
 
 X, Y, Z, U, V, W = zip(*soa)
 fig = plt.figure()

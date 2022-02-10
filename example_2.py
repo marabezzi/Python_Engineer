@@ -3,7 +3,7 @@ from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
 
 a = [1, 2, 3]
-b = [-3, 6, 4]
+b = [-3, 6, -4]
 
 soa = np.array([[0, 0, 0, a[0], a[1], a[2]],
                 [0, 0, 0, b[0], b[1], b[2]]])

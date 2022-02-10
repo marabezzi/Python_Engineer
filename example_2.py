@@ -1,11 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-v = [2,4]
-w = [4,2]
+v = [2,4,6]
+w = [4,2,6]
 
-array = np.array([[0, 0, v[0], v[1]], 
-                 [0, 0, w[0], w[1]]])
+array = np.array([[0, 0, v[0], v[1], v[2]], 
+                 [0, 0, w[0], w[1]], w[2]])
 
 X, Y, V, W = zip(*array)
 plt.figure()
